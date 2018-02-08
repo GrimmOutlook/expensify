@@ -10,6 +10,7 @@
     "react-scripts": "1.1.0"
   },
   "scripts": {
+    "compile:sass": "node-sass ./src/styles/styles.scss ./src/index.css -w",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

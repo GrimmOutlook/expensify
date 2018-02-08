@@ -15,3 +15,8 @@ button {
 button:disabled {
   cursor: default;
 }
+
+.menu-selected {
+  background-color: green;
+  font-weight: bold;
+}
